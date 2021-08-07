@@ -11,7 +11,7 @@
 </head>
 <body>
    <header>
-     <nav class="nav">
+     <!-- <nav class="nav">
         <ul class="nav__ul">
             <ul class="nav__li"><a class="col" href="#">Inicio</a></ul>
             <ul class="nav__li"><a href="#">Hoy</a></ul>
@@ -21,8 +21,35 @@
             <ul class="nav__li"><i class="fas fa-comment-dots" href="#"></i></ul>
             <ul class="nav__li"><img class="fas fa-comment-dots" href="#"></img></ul>
         </ul>
-     </nav>
+     </nav> -->
+     <nav>
+      <div class="menu">
+        <div class="logo">
+          <img src="pinterest.png" width="26" height="26" alt=""> 
+        </div>
+
+        <div class="pestañas">
+          <a class="col" href="#">Inicio</a>
+          <a class="hoy" href="#">Hoy</a>
+        </div>
+
+        <div class="buscar">
+          <form autocomplete="off">
+            <div>
+              <input type="text" placeholder="     Buscar" required>
+            </div>
+          </form>
+        </div>
+
+        <div class="siluetas">
+          <img class="bell" src="campana.png" width="23" height="23" alt="">
+          <img class="comment" src="comentario.png" width="23" height="23" alt="">
+          <img class="user" src="usuario.png" width="25" height="25" alt="">
+        </div>
+      </div>
+    </nav>
    </header>
+
    <div class="grid-container">
     <img class="grid-item" src="https://picsum.photos/230/128.jpg" width="230" height="128" />
     <img class="grid-item" src="https://picsum.photos/230/300.jpg" width="230" height="300" />
