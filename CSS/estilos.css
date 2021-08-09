@@ -120,118 +120,13 @@ header nav.menu.siluetas {
     margin-bottom: 40px;
     border-radius: 15px;
     cursor: zoom-in;
-    background-color: black;
+    background-color: rgb(163, 163, 163);
   }
   .grid-item:hover {
-    filter: opacity(0.7);
+    filter: opacity(0.4);
+    color: black;
   }
 
-
-#btn-plus{
-    display: none;
-}
-.container-boton{
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-}
-.btn-plus label{
-    display: block;
-    justify-content: space-between;
-    text-decoration: none;
-    color: black;
-    width: 55px;
-    height: 55px;
-    line-height: 55px;
-    text-align: center;
-    border-radius: 50%;
-    box-shadow: 0px 1px 10px rgba(0,0,0,0.4);
-}
-
-.btn-plus label{
-    cursor: pointer;
-    background: white;
-    font-size: 23px;
-}
-#btn-plus:checked ~ .btn-plus label{
-    font-size: 25px;
-}
-
-.btn-plus label{
-    display: block;
-    text-decoration: none;
-    color: black;
-    width: 55px;
-    height: 55px;
-    margin-bottom: 15px;
-    line-height: 55px;
-    text-align: center;
-    border-radius: 50%;
-    box-shadow: 0px 1px 10px rgba(0,0,0,0.4);
-}
-
-.btn-plus label{
-    cursor: pointer;
-    background: white;
-    font-size: 23px;
-}
-#btn-plus ~ .btn-plus label{
-    font-size: 25px;
-}
-
-
-
-#btn-help{
-    display: none;
-}
-.container-boton{
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-}
-.btn-help label{
-    display: block;
-    justify-content: space-between;
-    text-decoration: none;
-    color: black;
-    width: 55px;
-    height: 55px;
-    line-height: 55px;
-    
-    text-align: center;
-    border-radius: 50%;
-    box-shadow: 0px 1px 10px rgba(0,0,0,0.4);
-}
-
-.btn-help label{
-    cursor: pointer;
-    background: white;
-    font-size: 23px;
-}
-#btn-help:checked ~ .btn-help label{
-    font-size: 25px;
-}
-
-.btn-help label{
-    display: block;
-    text-decoration: none;
-    color: black;
-    width: 55px;
-    height: 55px;
-    line-height: 55px;
-    text-align: center;
-    border-radius: 50%;
-    box-shadow: 0px 1px 10px rgba(0,0,0,0.4);
-}
-
-.btn-help label{
-    cursor: pointer;
-    background: white;
-    font-size: 23px;
-}
-#btn-help:checked ~ .btn-help label{
-    font-size: 25px;
-}
 
   @media (max-width: 1170px){
     .menu{
